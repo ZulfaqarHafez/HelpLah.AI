@@ -1,7 +1,8 @@
 # HelpLah.AI
-HelpLah.AI is a multilingual AI chatbot that leverages the advanced Llama-2-7B-chat-GGML model to provide empathetic support to Singaporeans facing social isolation and loneliness. Fluent in both English and Mandarin, this chatbot effectively addresses the mental health challenges highlighted by a recent Institute of Policy Studies survey, particularly among the youth. 
+
+HelpLah.AI is a multilingual AI chatbot designed to address the increasing concerns of social isolation and loneliness among Singaporeans, as highlighted in a recent Institute of Policy Studies survey focusing on the youth. Built using the Flask framework and powered by the advanced Llama-2-7B-chat-GGML model, the chatbot proficiently communicates in both English and Mandarin. This enables it to reach a wide audience, providing empathetic support tailored to the nuances of each interaction.
 <br><br>
-By integrating sophisticated AI capabilities, HelpLah.AI offers meaningful interactions, helping users feel more connected and supported in their community. This tool is pivotal in making mental health support both accessible and impactful, enhancing the well-being of Singaporeans with every conversation.
+The chatbot leverages the gtts (Google Text-to-Speech) library to deliver responses in a clear, natural-sounding voice, enhancing the engagement and effectiveness of its interactions. By facilitating meaningful conversations, HelpLah.AI helps users feel more connected and supported within their community, making mental health support accessible and impactful. This tool is pivotal in improving the mental well-being of Singaporeans, demonstrating the power of advanced technology in transforming mental health advocacy and support.
 <br><br>
 <h1>Contributors</h1>
 <table>
