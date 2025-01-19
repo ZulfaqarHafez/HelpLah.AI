@@ -4,7 +4,7 @@ HelpLah.AI is a multilingual AI chatbot designed to address the increasing conce
 <br><br>
 The chatbot leverages the gtts (Google Text-to-Speech) library to deliver responses in a clear, natural-sounding voice, enhancing the engagement and effectiveness of its interactions. By facilitating meaningful conversations, HelpLah.AI helps users feel more connected and supported within their community, making mental health support accessible and impactful. This tool is pivotal in improving the mental well-being of Singaporeans, demonstrating the power of advanced technology in transforming mental health advocacy and support.
 <br><br>
-
+<img src="HelpAI.jpg"/>
 <h1>Prerequisites</h1>
 1. 1 NGROK Token for use between Google Colab and local Flask App
 
