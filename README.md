@@ -11,16 +11,20 @@ The chatbot leverages the gtts (Google Text-to-Speech) library to deliver respon
 <h2>Setup Instructions for local flask app and google colab</h2>
 1. Create a python virtual environment, run the following command
 
+```bash
 python -m venv venv
+```
 
 2. Start the virtual environment, run the following command:
 
+```bash
 venv\Scripts\Activate
-
+```
 3. Install all packages from the requirements.txt file into the virtual environment, run the following command: (Install packages seperately if "module not found" error happens)
 
+```bash
 pip install -r requirements.txt
-
+```
 4. Access the Google Colab file  [Open in Google Colab](https://colab.research.google.com/drive/1q4HgHEb6NctgasFU2Gp3uKnMT5hEVZss?usp=sharing)
 
 6. Run all code in order from top to bottom
@@ -31,8 +35,9 @@ pip install -r requirements.txt
  COLAB_URL = "YOUR_NGROK_URL/process" <br>
 9. Lastly, run the following command to start your local flask app
 
+```bash
 python main.py
-
+```
 <h1>Contributors</h1>
 <table>
   <tr>
