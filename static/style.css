@@ -1,0 +1,126 @@
+/* General body styling */
+body {
+    background-color: #f0f8ff; /* Light blue background for a soothing look */
+    color: #2e8b57; /* Sea green text color for calm and comfort */
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #2e8b57;
+    margin-bottom: 20px;
+}
+
+.assistant-wrapper {
+    background-color: #f0ffff; /* Very pale cyan for the face background */
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 0 0 20px #afeeee, inset 0 0 10px #48d1cc; /* Softer glow effects */
+}
+
+.face {
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle at 50% 50%, #ddeeff, #bbccee);
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eyes, .mouth {
+    background-color: #2e8b57; /* Sea green for facial features */
+}
+
+.controls, #transcript {
+    margin-top: 20px;
+    color: #2e8b57;
+}
+
+button, select {
+    background: #afeeee; /* Soft cyan */
+    color: #2e8b57; /* Sea green text */
+    border: 1px solid #3cb371;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover, select:hover {
+    background: #48d1cc; /* Darker cyan for hover */
+}
+
+#text-display {
+    background-color: #ffffff; /* Ensures visibility */
+    border: 1px solid #afeeee; /* Light border for aesthetics */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 80%; /* Adjust width as necessary */
+    text-align: center; /* Center the text */
+    min-height: 50px; /* Ensures box is visible even if empty */
+}
+
+/* Eyes animation */
+.eyes {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    animation: blink 5s infinite ease-in-out;
+}
+
+.eyes:first-child {
+    left: 85px;
+}
+
+.eyes:last-child {
+    right: 85px;
+}
+
+@keyframes blink {
+    0%, 50% {
+        height: 30px; /* Eye open */
+    }
+    50% {
+        height: 15px; /* Eye closed */
+    }
+}
+
+/* Mouth animation */
+.mouth {
+    width: 60px;
+    height: 20px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 80px;
+    left: calc(50% - 30px);
+    animation: talk 2s infinite ease-in-out;
+}
+
+@keyframes talk {
+    0%, 100% {
+        height: 20px; /* Mouth closed */
+    }
+    50% {
+        height: 10px; /* Mouth open */
+    }
+}

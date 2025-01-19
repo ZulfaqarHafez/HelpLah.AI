@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpLah.AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HelpLah.AI</h1>
+        <div class="assistant-wrapper">
+            <div class="face">
+                <div class="eyes"></div>
+                <div class="eyes"></div>
+                <div class="mouth"></div>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="talkButton" onclick="startRecording();">Talk</button>
+            <select id="language" onchange="updateLanguage();">
+                <option value="en-US">English (US)</option>
+                <option value="zh-CN">Mandarin (Simplified)</option>
+            </select>
+            <p id="status">Press "Talk" to start speaking...</p>
+        </div>
+        <div id="text-display">
+            <p id="transcript">Your speech will appear here...</p>
+        </div>
+        <audio id="audio-player" style="display: none;" controls></audio>
+    </div>
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <script src="/static/assistant.js"></script>
+</body>
+</html>
