@@ -38,6 +38,9 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+<h2>Tech Stack</h2>
+<img src="techstack.png"/>
+
 <h1>Contributors</h1>
 <table>
   <tr>
