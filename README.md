@@ -1,8 +1,10 @@
 # HelpLah.AI: AI Powered conversational bot
 
-HelpLah.AI is a multilingual AI chatbot designed to address the increasing concerns of social isolation and loneliness among Singaporeans, as highlighted in a recent Institute of Policy Studies survey focusing on the youth. Built using the Flask framework and powered by the advanced Llama-2-7B-chat-GGML model, the chatbot proficiently communicates in both English and Mandarin. This enables it to reach a wide audience, providing empathetic support tailored to the nuances of each interaction.
+HelpLah.AI is a multilingual AI chatbot created for Hack n Roll 2025 to address the increasing concerns of social isolation and loneliness among Singaporeans, as highlighted in a recent Institute of Policy Studies survey focusing on the youth. Built using the Flask framework and since it's a 24hour hackathon, we decided to go with a pre-trained model that is robust which is the Llama-2-7B-chat-GGML model, the chatbot proficiently communicates in both English and Mandarin. This enables it to reach a wide audience, providing empathetic support tailored to the nuances of each interaction.
 <br><br>
 The chatbot leverages the gtts (Google Text-to-Speech) library to deliver responses in a clear, natural-sounding voice, enhancing the engagement and effectiveness of its interactions. By facilitating meaningful conversations, HelpLah.AI helps users feel more connected and supported within their community, making mental health support accessible and impactful. This tool is pivotal in improving the mental well-being of Singaporeans, demonstrating the power of advanced technology in transforming mental health advocacy and support.
+<br><br>
+To ensure efficient operation without the need for extensive hardware, we use ngrok to connect our Flask-based application to Google Colab's corporate GPUs. This setup allows us to leverage powerful computing resources remotely, enabling faster response times than those possible with local GPUs.
 <br><br>
 <img src="HelpAI.jpg"/>
 <h1>Prerequisites</h1>
